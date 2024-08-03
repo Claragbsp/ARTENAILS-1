@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Playwrite+RO:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: #032f44;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+header h1 {
+    font-family: "Playwrite RO", cursive;
+    font-size: 15px;
+}
+@media screen and (max-width:762px){
+    .artes,img{
+      width: 500%;
+      height: 300px;
+    }
+  }
+  .artes, h3{
+    font-family: "Allura", cursive;
+    text-align: center;
+    font-size: 1,5rem;
+  }
+  .artes,img{
+    width: 100%;
+    height: 300px;
+  }
+  
+  @media screen and (max-width:762px){
+    .agendamento img{
+        width: 50px;
+        margin: 5px;
+        border-radius: 40px;
+        box-sizing: border-box; 
+    }
+    .agendamento h2{
+       
+    }
+  }
+
+.agendamento{
+    background-color: darkgray;
+    height: 700px;
+    padding: 70px;
+    text-align: center;
+  }
+  .agendamento h2{
+    font-family: "Archivo Black", sans-serif;
+    padding: 20px;
+  }
+  .agendamento button  {
+    background-color: #032f44; 
+    border: 1px solid;
+    border-radius: 10px;
+  }
+  .agendamento > button h2{
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+  }
+  .agendamento a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*.agendamento img{  
+    padding: 30px;
+    width: 440px;
+    height: 350px;
+    border-radius: 40px;
+    box-sizing: border-box; 
+  }*/
