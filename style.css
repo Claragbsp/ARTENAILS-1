@@ -23,17 +23,24 @@ header h1 {
     font-size: 15px;
 }
 
-@media screen and (max-width:762px){
+@media screen and (min-width:762px){
     .artes,img{
       width: 500%;
       height: 300px;
+    }
+
+    .agendamento > .ok{
+      font-family: "Archivo Black", sans-serif;
+      width: 510px;
+      padding: 20px;
+      font-size: 2rem;
     }
   }
 
   .artes, h3{
     font-family: "Allura", cursive;
     text-align: center;
-    font-size: 1,5rem;
+    font-size: 2rem;
   }
 
   .artes,img{
@@ -49,10 +56,11 @@ header h1 {
     padding: 90px;
     text-align: center;
   }
-  .agendamento > h2{
+  .agendamento > .ok{
     font-family: "Archivo Black", sans-serif;
-    padding: 40px;
-    font-size: 25px;
+    padding: 55px;
+    font-size: 1,3rem;
+    
   }
   .agendamento > button {
     background-color: #032f44;
@@ -79,7 +87,8 @@ header h1 {
     font-family: "Archivo Black", sans-serif;
     background-color: darkgray;
     text-align: center;
-    
+    padding: 30px;
+    font-size: 1,0rem;
 }
 .agendar img {
     background-color: darkgray ;
