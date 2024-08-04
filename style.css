@@ -92,7 +92,7 @@ header h1 {
      width: 355px;
      align-items: center;
     }
-    .maps h2 {
+    .maps > h2 {
       font-size: 3rem;
       text-align: center;
     }
