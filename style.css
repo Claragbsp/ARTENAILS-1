@@ -54,7 +54,7 @@ header h1 {
 
 /*AGENDAMENTO E CONTATO*/
 
-@media  screen and (max-width:762px) {
+@media  screen and (max-width:800px) {
   .agendamento   {
 
      width: 260px;
