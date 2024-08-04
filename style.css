@@ -56,7 +56,7 @@ header h1 {
 
 @media  screen and (max-width:800px) {
   
-  .agendamento > div > img {
+  .agendamento > div > a > img {
     width: 260px;
     height: 300px;
   }
@@ -71,7 +71,7 @@ header h1 {
   cursor: pointer;
 
 }
-.agendamento > div > img{ 
+.agendamento > div > a > img{ 
   flex: auto;
   padding: 49px;
   width: 170px;
