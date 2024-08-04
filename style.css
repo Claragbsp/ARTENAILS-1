@@ -71,13 +71,19 @@ header h1 {
   cursor: pointer;
 
 }
+.agendamento > div > a > img:hover{
+  
+  
+  transform: translate(-3px, -3px);
+}
 .agendamento > div > a > img{ 
   flex: auto;
   padding: 49px;
+  
   width: 170px;
   height: 200px;
   border-radius: 100%;
-  transform: translate(-3px, -3px)
+ 
   
 }
 
