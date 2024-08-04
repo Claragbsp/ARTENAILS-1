@@ -35,8 +35,6 @@ header h1 {
     }
     
   }
-
-
 /* Artes */
 
   .artes, h3{
@@ -45,8 +43,8 @@ header h1 {
     font-size: 2rem;
   }
   .artes .ok{
-    height: 200px;
-    padding: 20px;
+    height: 330px;
+    padding: 10px;
   } 
 
   .artes,img{
@@ -54,27 +52,45 @@ header h1 {
     height: 300px;
   }
 
-
-
-
 /*AGENDAMENTO E CONTATO*/
 
+@media  screen and (max-width:762px) {
+  .agendamento   {
+
+     width: 260px;
+     height: 500px;
+     padding: 240px;
+     margin-left: 35px;
+     align-items: center;
+  }
+}
+.agendamento{
+ 
+  display: flex;
+  justify-content: center;
+  
+  padding: 100px;
+  height: 400px;
+  
+  transform: translate(-3px, -3px);
+  cursor: pointer;
+
+}
+.agendamento > div > img{ 
+  flex: auto;
+  padding: 40px;
+ 
+  width: 170px;
+  height: 200px;
+  border-radius: 100%;
+  
+  
+}
 
 
 
 
 
-
-/* agenda */
-
-/*
-@media screen and (min-width: 900px) and (max-width: 1200px) {
-    .agendar img {
-        max-width: 400px;
-        padding: 45px;
-       
-    }
-}*/
 .agendar h2{
    font-family: "Allura", cursive;
     text-align: center;
@@ -89,7 +105,6 @@ header h1 {
 @media screen and (max-width: 700px) {
 
     .maps > div , iframe {
-     
      margin-right: 30px;
     }
     .maps > h2 {
@@ -102,7 +117,6 @@ header h1 {
   font-family: "Allura", cursive;
   font-size: 2rem;
   text-align: center;
-
 }
 
 .maps > div  iframe{
@@ -113,7 +127,7 @@ header h1 {
 } 
 
 footer{
-  height: 400px;
+  height: 300px;
   background-color: #032f44;
 }
 
