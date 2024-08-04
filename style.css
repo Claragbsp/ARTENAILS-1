@@ -86,10 +86,12 @@ header h1 {
     padding: 55px;
 }
 
-@media screen and (max-width: 802px){
+@media screen and (max-width: 700px){
 
     .maps > div , iframe {
+
      width: 355px;
+     margin-right: 25px;
      align-items: center;
     }
     .maps > h2 {
