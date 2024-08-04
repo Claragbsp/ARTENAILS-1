@@ -55,13 +55,10 @@ header h1 {
 /*AGENDAMENTO E CONTATO*/
 
 @media  screen and (max-width:800px) {
-  .agendamento   {
-
-     width: 260px;
-     height: 500px;
-     padding: 240px;
-     margin-left: 35px;
-     align-items: center;
+  
+  .agendamento > div > img {
+    width: 260px;
+    height: 300px;
   }
 }
 .agendamento{
@@ -70,20 +67,17 @@ header h1 {
   justify-content: center;
   
   padding: 100px;
-  height: 400px;
-  
-  transform: translate(-3px, -3px);
+  height: 300px;
   cursor: pointer;
 
 }
 .agendamento > div > img{ 
   flex: auto;
-  padding: 40px;
- 
+  padding: 49px;
   width: 170px;
   height: 200px;
   border-radius: 100%;
-  
+  transform: translate(-3px, -3px)
   
 }
 
