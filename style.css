@@ -86,27 +86,32 @@ header h1 {
     padding: 55px;
 }
 
-@media screen and (max-width: 762px){
+@media screen and (max-width: 802px){
 
-    .maps {
-      width: 350px;
-      margin-right: 30px;
+    .maps > div , iframe {
+     width: 355px;
+     align-items: center;
+    }
+    .maps h2 {
+      font-size: 3rem;
+      text-align: center;
     }
     
 }
+.maps > h2 {
+  font-family: "Allura", cursive;
+  font-size: 2rem;
+  text-align: center;
 
+}
 
-.maps > iframe{
+.maps > div  iframe{
   padding: 30px;
   height: 350px;
   width: 96%;
   margin-left: 25px;
 } 
-.maps > h2 {
-  font-family: "Allura", cursive;
-  font-size: 2rem;
-  text-align: center;
-}
+
 footer{
   height: 400px;
   background-color: #032f44;
