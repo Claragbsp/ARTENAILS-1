@@ -35,6 +35,8 @@ header h1 {
     }
     
   }
+
+
 /* Artes */
 
   .artes, h3{
@@ -75,22 +77,39 @@ header h1 {
 }*/
 .agendar h2{
    font-family: "Allura", cursive;
-   
     text-align: center;
     padding: 30px;
     font-size: 1.9rem;
 }
 .agendar img {
-    
-    height: 340px;
+    height: 350px;
     padding: 55px;
 }
 
-main > h2 {
-  font-family: "Allura", cursive;
-  font-size: 1.9rem;
-  text-align: center;
+@media screen and (max-width: 762px){
+
+    .maps {
+      width: 350px;
+      margin-right: 30px;
+    }
+    
 }
 
+
+.maps > iframe{
+  padding: 30px;
+  height: 350px;
+  width: 96%;
+  margin-left: 25px;
+} 
+.maps > h2 {
+  font-family: "Allura", cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+footer{
+  height: 400px;
+  background-color: #032f44;
+}
 
 
