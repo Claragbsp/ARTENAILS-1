@@ -65,26 +65,22 @@ header h1 {
  
   display: flex;
   justify-content: center;
-  
   padding: 100px;
   height: 300px;
   cursor: pointer;
 
 }
 .agendamento > div > a > img:hover{
-  
-  
+
   transform: translate(-3px, -3px);
 }
-.agendamento > div > a > img{ 
+.agendamento > div > a > img{
+
   flex: auto;
   padding: 49px;
-  
   width: 170px;
   height: 200px;
   border-radius: 100%;
- 
-  
 }
 
 
@@ -126,9 +122,33 @@ header h1 {
   margin-left: 25px;
 } 
 
-footer{
-  height: 300px;
-  background-color: #032f44;
+/*
+
+@media  screen and (max-width:800px) {
+  
+  footer  img {
+    width: 360px;
+    height: 300px;
+    
+  }
 }
 
 
+footer {
+  height: 500px;
+  background-color: #032f44;
+}
+footer p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+footer img {
+  width: 230px;
+  height: 250px;
+  padding: 50px;
+
+  margin-left: 540px;
+  border-radius: 100%;
+} */
